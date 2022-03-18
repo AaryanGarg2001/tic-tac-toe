@@ -1,0 +1,66 @@
+body
+{
+    font-family: 'Merriweather', serif;
+    background-color: #97DBAE;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: 'IM Fell English SC', serif;
+    padding: 5% 5% 3%;
+}
+
+#result{
+    font-family: 'IM Fell English SC', serif;;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+#board{
+    margin:1% auto;
+    background-color: #b1dd95;
+    width:63vmin;
+}
+
+.grid{
+    font-family: 'Poppins', sans-serif;
+    font-size: 500%;
+    background-color: #C3E5AE;
+    margin: 2px;
+    width:20vmin;
+    height: 20vmin;
+}
+
+.moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(255, 255, 255);
+  }
+
+  .cross {
+    background: rgb(255, 255, 255);
+    height: 120px;
+    position: relative;
+    margin: auto;
+    width: 20px;
+  }
+  .cross:after {
+    background: rgb(255, 255, 255);
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 30px;
+    width: 100px;
+  }
+  .refresh{
+      background-color: rgb(182, 95, 95);
+      margin: 20px ;
+  }
+
+  .win{
+      background-color: #F1E1A6;
+  }
